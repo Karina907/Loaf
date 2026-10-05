@@ -2,6 +2,6 @@
 //  Recipe.swift
 //  
 //
-//  Created by Karina Pizarro on 10/4/26.
+//  Created by Karina on 10/4/26.
 //
 
