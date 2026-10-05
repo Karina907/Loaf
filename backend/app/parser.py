@@ -13,7 +13,7 @@ def fetch_and_parse_recipe(url: str):
         return scraper_json
     except:
         pass
-
+ 
     # (2) If the URL is not supported, attempt to fetch and parse the recipe using wild_mode
     try:
         ua = UserAgent()
