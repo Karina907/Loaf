@@ -26,14 +26,3 @@ extension Font {
         design: .serif
     )
 }
-
-struct ContentView: View {
-    var body: some View {
-        Text("Peanut Butter")
-            .font(.loafBody)
-    }
-}
-
-#Preview {
-    ContentView()
-}

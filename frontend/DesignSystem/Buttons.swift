@@ -1,9 +1,19 @@
-//
-//  Buttons.swift
-//  
-//
+import SwiftUI
 
+struct LoafButtonStyle: ButtonStyle {
 
-extension loafButton {
-    static buttonOne = 
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .font(.loafBody)
+    }
+}
+
+#Preview {
+    Button("Save Recipe") {
+        print("Saved")
+    }
+    .buttonStyle(LoafButtonStyle())
+    
+    Text("Test")
+        .font(Font.loafBody)
 }
